@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/fixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="launch Fixed flow"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/collection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch collection flow "
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/lambda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch collection flow "
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch collection flow "
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/flowchain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch flow chain "
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/MapSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Sync"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Mapsuspend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Suspend"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/Filtersync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Sync"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/Filtersuspend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Suspend"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/takewhile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take While"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>
+</layout>
